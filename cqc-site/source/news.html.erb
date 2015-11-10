@@ -2,4 +2,46 @@
 title: Newsletters
 ---
 <h1>Newsletters</h1>
-<p class="lead">Please find our internal CQC news bulletins in downloadable PDF format.</p>
+<p class="lead">Please find the archive of our internal CQC news bulletins in downloadable PDF format below.</p>
+<p>If you want to create a shareable local newsletter that you can print off, <%= link_to "feel free to use this Word Template Newsletter", "docs/CQC_Proud_newsletter_template.docx" %>. When you distribute your newsletter, be sure to save it as a PDF.</p>
+
+<ul class="media-list">
+  <li class="media">
+    <div class="media-left">
+      <% link_to '/docs/CQC_6_weeks_to_go-October-26.pdf', target: "_blank" do %>
+        <%= image_tag 'october_28_thumbnail.jpg', class: "media-object", width: "100" %>
+      <% end %>
+    </div>
+    <div class="media-body">
+      <h4 class="media-heading">Just Six Weeks to Get Ready for our Inspection - October 28th</h4>
+      <p><em>We have just 6 weeks to go before our Trust is inspected by the Care Quality Commission. I know there is a huge amount of work going on to ensure we are prepared to show the Care Quality team the excellent care you all work so hard to deliver on a daily basis...</em></p>
+        <%= link_to 'Download Bulletin', "/docs/CQC_6_weeks_to_go-October-26.pdf", target: "_blank" %>
+    </div>
+  </li>
+  
+  <li class="media">
+    <div class="media-left">
+      <% link_to '/docs/CQC_Our_CQC_Inspector_would_like_to_hear_your_views-October-23.pdf', target: "_blank" do %>
+        <%= image_tag 'october_23_thumbnail.jpg', class: "media-object", width: "100" %>
+      <% end %>
+    </div>
+    <div class="media-body">
+      <h4 class="media-heading">Our CQC Inspector Would Like to Hear your Views - October 23rd</h4>
+      <p><em>You will be aware from my bulletin and the special newsletter I sent you last week, that part of the inspection process includes asking you and other STH colleagues, as well as our patients, what you think we do well and where we need to do more to be even better....</em></p>
+        <%= link_to 'Download Bulletin', "/docs/CQC_Our_CQC_Inspector_would_like_to_hear_your_views-October-23.pdf", target: "_blank" %>
+    </div>
+  </li>
+  
+  <li class="media">
+    <div class="media-left">
+      <% link_to '/docs/CQC_inspection_newsletter-October.pdf', target: "_blank" do %>
+        <%= image_tag 'october_thumbnail.jpg', class: "media-object", width: "100" %>
+      <% end %>
+    </div>
+    <div class="media-body">
+      <h4 class="media-heading">CQC Inspection Newsletter - Issue 1 Autumn 2015</h4>
+      <p><em>This special bulletin has been produced in order to give you more information about the upcoming Care Quality Commission (CQC) inspection which is due to take place w/c 7th December 2015...</em></p>
+        <%= link_to 'Download Newsletter', "/docs/CQC_inspection_newsletter-October.pdf", target: "_blank" %>
+    </div>
+  </li>
+</ul>

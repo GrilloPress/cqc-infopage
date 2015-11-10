@@ -3,9 +3,10 @@
   <div class="panel-heading"><h3 class="panel-title">Menu</h3></div>
   <ul class="list-group">
     <li class="list-group-item"><%= link_to "Home", "/index.html" %></li>
-    <li class="list-group-item"><%= link_to "Information Sheets", "/infosheets.html" %></li>
     <li class="list-group-item"><%= link_to "Checklists", "/checklists.html" %></li>
+    <li class="list-group-item"><%= link_to "Information Sheets", "/infosheets.html" %></li>
     <li class="list-group-item"><%= link_to "Frequently Asked Questions", "/faq.html" %></li>
+    <li class="list-group-item"><%= link_to "Newsletters", "/news.html" %></li>
   </ul>
 </div>
 
@@ -13,8 +14,13 @@
   <div class="panel-heading"><h3 class="panel-title">Information Sheets</h3></div>
   <ul class="list-group">
     <li class="list-group-item"><%= link_to "Information Sheets", "/infosheets.html" %></li>
-    <li class="list-group-item">Sheet one</li>
-    <li class="list-group-item">Sheet two</li>
+    <li class="list-group-item"><%= link_to 'Download Complaints Information Sheet', "/docs/CQC-Infosheet-Complaints-Ward-Info.docx", target: "_blank" %></li>
+    <li class="list-group-item"><%= link_to 'Download Management of Medicines Information Sheet', "/docs/CQC-Infosheet-Management-Medicines.pdf", target: "_blank" %></li>
+    <li class="list-group-item"><%= link_to 'Download Mental Capacity Information Sheet', "/docs/CQC-Infosheet-Mental-Capacity.pdf", target: "_blank" %></li>
+    <li class="list-group-item"><%= link_to 'Download Nutrition and Hydration Information Sheet', "/docs/CQC-Infosheet-Nutrition-Hydration.pdf", target: "_blank" %></li>
+    <li class="list-group-item"><%= link_to 'Download Patient Feedback Information Sheet', "/docs/CQC-Infosheet-Patient-Feedback.pdf", target: "_blank" %></li>
+    <li class="list-group-item"><%= link_to 'Download Quality Governance Information Sheet', "/docs/CQC-Infosheet-Quality-Governance.pdf", target: "_blank" %></li>
+    <li class="list-group-item"><%= link_to 'Download Seven Day Services Information Sheet', "/docs/CQC-Infosheet-Seven-day-services.pdf", target: "_blank" %></li>
   </ul>
 </div>
 
@@ -22,17 +28,19 @@
   <div class="panel-heading"><h3 class="panel-title">Checklists</h3></div>
   <ul class="list-group">
     <li class="list-group-item"><%= link_to "Checklists", "/checklists.html" %></li>
-    <li class="list-group-item">Ward List</li>
-    <li class="list-group-item">Ward List</li>
+    <li class="list-group-item"><%= link_to 'Download Community Checklist', "/docs/STH_community_services_checklist.pdf", target: "_blank" %></li>
+    <li class="list-group-item"><%= link_to 'Download Diagnostic Imaging Checklist', "/docs/STH_Diagnostics_checklist.pdf", target: "_blank" %></li>
+    <li class="list-group-item"><%= link_to 'Download Operating Theatres & Anaesthetics Checklist', "/docs/STH_Theatres_checklist.pdf", target: "_blank" %></li>
+    <li class="list-group-item"><%= link_to 'Download Outpatients Checklist', "/docs/STH_outpatients_checklist.pdf", target: "_blank" %></li>
+    <li class="list-group-item"><%= link_to 'Download Ward Checklist', "/docs/STH_ward_checklist.pdf", target: "_blank" %></li>
   </ul>
 </div>
 
 <div class="panel panel-primary">
   <div class="panel-heading"><h3 class="panel-title">Newsletters</h3></div>
   <ul class="list-group">
-    <li class="list-group-item">Checklist Page</li>
-    <li class="list-group-item">Ward List</li>
-    <li class="list-group-item">Ward List</li>
+    <li class="list-group-item"><%= link_to "All Newsletters", "/news.html" %></li>
+    
   </ul>
 </div>
 
@@ -43,3 +51,5 @@
     <p>You can also contact Sandi Carmen, <a href="mailto:sandi.carmen@sth.nhs.uk">Head of Healthcare Governance via email</a> for further information about the inspection process.</p>
   </div>
 </div>
+
+<a href="http://nww.sth.nhs.uk/NHS/IntranetIndex.htm">Return to Intranet Site Index</a>
